@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "name": "curso-tailwind-css",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Ramon David Souto",
+    "license": "MIT",
+    "scripts": {
+        "dev": "live-server /var/www --port=9000 --host=0.0.0.0",
+        "watch": "postcss base.css -o public/main.css --watch",
+        "build": "postcss base.css -o public/main.css"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss-cli": "^9.1.0",
+        "tailwindcss": "^3.0.7"
+    }
+}
