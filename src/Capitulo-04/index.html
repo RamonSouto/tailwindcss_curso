@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aulas de TailWindCss Capitulo - 4 - Grid</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- GRID -->
+        <div class="grid bg-red-300 grid-cols-4 m-2">
+            <div class="bg-red-600">1</div>
+            <div class="bg-red-600">2</div>
+            <div class="bg-red-600">3</div>
+            <div class="bg-red-600">4</div>
+        </div>
+        <div class="grid grid-cols-2 m-2">
+            <div class="bg-green-600">1</div>
+            <div class="bg-green-600">2</div>
+        </div>
+
+        <!-- COLSPAN -->
+        <div class="grid bg-red-300 grid-cols-6 m-2">
+            <div class="col-span-1 bg-yellow-300">
+                <ul>
+                    <li>Home</li>
+                    <li>Produto</li>
+                    <li>Contato</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-span-5 bg-blue-400"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi optio amet in. A maxime, officia obcaecati adipisci molestias qui temporibus vel id, amet consequatur vero quidem neque porro debitis aliquam?</p></div>            
+        </div>
+        <div class="grid grid-cols-4 m-2">
+            <div class="col-span-4 bg-red-900">Cabeçalho</div>
+            <div class="col-span-1 bg-red-300">
+                <p>Barra lateral esquerda</p>
+            </div>
+            <div class="col-span-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti modi neque numquam libero laudantium, asperiores quas iusto mollitia deleniti alias fugit, ab cum eligendi. Dolorem iusto nulla voluptas mollitia.
+                Reiciendis fugiat hic beatae. Eveniet suscipit illo quos, explicabo commodi dolores facilis voluptate aliquam asperiores quasi tempora minus ex, sunt in repellat itaque accusamus quisquam mollitia sed consectetur, at quae!
+                Sequi ipsa temporibus asperiores harum autem alias hic illum excepturi tenetur quae dolor sint similique vitae repellendus itaque voluptas totam ea eius, nesciunt voluptate? Dicta quaerat sequi exercitationem eius maiores.
+                Aliquid sapiente facilis ipsa veniam dolores illo sunt deserunt consequuntur! Quae cupiditate corporis quas quis ex consequatur quibusdam voluptas placeat vel, reprehenderit ea delectus autem sint voluptatum? Dignissimos, tenetur veritatis!
+                Hic, iure cupiditate fugiat neque eum aliquid repudiandae velit ullam molestias dignissimos cumque quasi quia id nam deleniti sint modi sed, natus debitis voluptate numquam consequuntur quas cum fugit! Laudantium.</p>
+            </div>
+            <div class="col-span-1 bg-red-300">
+                <p>Barra lateral direita</p>
+            </div>
+            <div class="col-span-4 bg-red-900">Footer</div>
+        </div>
+
+        <!-- GRID ROW -->
+        <div class="grid grid-rows-3 grid-flow-col m-2">
+            <div class="bg-green-100">Linha 1</div>
+            <div class="bg-green-200">Linha 2</div>
+            <div class="bg-green-300">Linha 3</div>
+            <div class="bg-green-400">Linha 4</div>
+            <div class="bg-green-100">Linha 5</div>
+            <div class="bg-green-200">Linha 6</div>
+            <div class="bg-green-300">Linha 7</div>
+            <div class="bg-green-400">Linha 8</div>
+        </div>
+
+        <!-- GAP -->
+        <div class="grid grid-cols-3 m-2 gap-2">
+            <div class="bg-blue-100">Linha 1</div>
+            <div class="bg-blue-200">Linha 2</div>
+            <div class="bg-blue-300">Linha 3</div>
+            <div class="bg-blue-400">Linha 4</div>
+            <div class="bg-blue-100">Linha 5</div>
+            <div class="bg-blue-200">Linha 6</div>
+            <div class="bg-blue-300">Linha 7</div>
+            <div class="bg-blue-400">Linha 8</div>
+        </div>
+    </body>
+</html>
