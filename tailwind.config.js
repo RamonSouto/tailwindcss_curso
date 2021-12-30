@@ -1,22 +1,30 @@
-const {colors} = require('tailwindcss/defaultTheme')
-
 module.exports = {
     content: ['./src/**/*.{html,js}'],
-    theme: {
-        screens:{
-            'tablet' : '640px',
-            'cel':{'max':'400px'},
-        },
+    theme: {        
         extend: {
-            colors:{
-                'new-blue': '#243C5A',
-                gray: {
-                    ...colors.gray,
-                    '900': '#999'
-                }
-            },
             spacing:{
-                '50' : '20rem',
+                '14':'3.5rem',
+                '125px':'125px',
+            },
+            colors:{
+                'hoverspt':'#18D760',
+                'purple-main':'#2D46B9',
+                'green-main':'#1ED760'
+            },
+            backgroundImage: theme => ({
+                'spotify-theme':'url("../img/bursts.svg")',
+                'spotify-theme-mobile':'url("../img/bursts-mobile.svg")',
+            }),
+            backgroundSize:{
+                '175%': '175%',
+                '195%': '195%'
+            },
+            backgroundPosition:{
+                'banner':'46% 4%',
+                'banner-mobile': 'top 25% center'
+            },
+            fontSize:{
+                '9xl': '9rem'
             }
         }
     },
