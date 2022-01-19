@@ -35,6 +35,24 @@ Curso de TailwindCSS
     ```
 
 7. Para o container do docker
+
     ```
     docker-compose stop
+    ```
+
+8. Adicionar itens alterado ao GIT
+
+    ```
+    git add .
+    ```
+
+9. Comitar os itens que foram adicionarod
+
+    ```
+    git commit -m "Mensagem do commit"
+    ```
+
+10. Comitar os itens que foram adicionarod
+    ```
+    git push origin main:main
     ```
