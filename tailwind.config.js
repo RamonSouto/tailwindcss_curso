@@ -13,7 +13,9 @@ module.exports = {
             },
             backgroundImage: theme => ({
                 'spotify-theme': 'url("../img/bursts.svg")',
-                'spotify-theme-mobile': 'url("../img/bursts-mobile.svg")'
+                'spotify-theme-mobile': 'url("../img/bursts-mobile.svg")',
+                cidade: 'url("../img/bg_cidade.jpg")',
+                tailwind: 'url(".../img/tailwind.png")'
             }),
             backgroundSize: {
                 '175%': '175%',

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Capitulo 10 - Background</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Backgroun Local -->
+        <div class="h-48 overflow-auto bg-local bg-cidade">
+            <p class="p-10">testando</p>
+            <p class="p-10">testando</p>
+            <p class="p-10">testando</p>
+            <p class="p-10">testando</p>
+            <p class="p-10">testando</p>
+            <p class="p-10">testando</p>
+        </div>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+
+        <!-- Backgroun Fixado -->
+        <div class="h-48 overflow-auto bg-fixed bg-cidade">
+            <p class="p-10">bg-fixed</p>
+            <p class="p-10">bg-fixed</p>
+            <p class="p-10">bg-fixed</p>
+            <p class="p-10">bg-fixed</p>
+            <p class="p-10">bg-fixed</p>
+            <p class="p-10">bg-fixed</p>
+        </div>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+        <p class="p-20">testando</p>
+
+        <!-- cor de background -->
+        <div class="h-10 bg-green-100"></div>
+        <div class="h-10 bg-green-200"></div>
+        <div class="h-10 bg-green-300"></div>
+        <div class="h-10 bg-green-400"></div>
+        <div class="h-10 bg-green-500"></div>
+        <div class="h-10 bg-green-600"></div>
+        <div class="h-10 bg-green-700"></div>
+        <div class="h-10 bg-green-800"></div>
+        <div class="h-10 bg-green-900"></div>
+
+        <!-- opacidade de background -->
+        <div class="h-10 bg-green-900 bg-opacity-0">Opacidade 0</div>
+        <div class="h-10 bg-green-900 bg-opacity-25">Opacidade 25</div>
+        <div class="h-10 bg-green-900 bg-opacity-50">Opacidade 50</div>
+        <div class="h-10 bg-green-900 bg-opacity-75">Opacidade 75</div>
+        <div class="h-10 bg-green-900 bg-opacity-100">Opacidade 100</div>
+
+        <!-- Posição de background -->
+        <div class="h-48 overflow-auto bg-bottom bg-cidade">
+            <p class="p-10 text-white bold">bg-bottom</p>
+            <p class="p-10 text-white bold">bg-bottom</p>
+            <p class="p-10 text-white bold">bg-bottom</p>
+            <p class="p-10 text-white bold">bg-bottom</p>
+            <p class="p-10 text-white bold">bg-bottom</p>
+            <p class="p-10 text-white bold">bg-bottom</p>
+        </div>
+        <p>&nbsp;</p>
+        <div class="h-48 overflow-auto bg-center bg-cidade">
+            <p class="p-10 text-white bold">bg-center</p>
+            <p class="p-10 text-white bold">bg-center</p>
+            <p class="p-10 text-white bold">bg-center</p>
+            <p class="p-10 text-white bold">bg-center</p>
+            <p class="p-10 text-white bold">bg-center</p>
+            <p class="p-10 text-white bold">bg-center</p>
+        </div>
+        <p>&nbsp;</p>
+        <div class="h-48 overflow-auto bg-right-bottom bg-cidade">
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+            <p class="p-10 text-white bold">bg-right-bottom</p>
+        </div>
+
+        <!-- Repetição de background -->
+        <div class="h-48 overflow-auto bg-center bg-no-repeat bg-tailwind">
+            <p class="p-10">bg-no-repeat</p>
+            <p class="p-10">bg-no-repeat</p>
+            <p class="p-10">bg-no-repeat</p>
+            <p class="p-10">bg-no-repeat</p>
+            <p class="p-10">bg-no-repeat</p>
+            <p class="p-10">bg-no-repeat</p>
+        </div>
+        <p>&nbsp;</p>
+        <div class="h-48 overflow-auto bg-local bg-repeat-y bg-tailwind">
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+            <p class="p-10">bg-repeat-y</p>
+        </div>
+
+        <!-- Tamanho de background -->
+        <div class="h-screen bg-auto bg-cidade"></div>
+        <div class="h-screen bg-cover bg-bottom bg-cidade"></div>
+        <div class="h-screen bg-contain bg-no-repeat bg-cidade"></div>
+
+        <!-- degrade de background -->
+        <div class="h-48 bg-gradient-to-tr from-gray-700 to-red-400"></div>
+        <div class="h-48 bg-gradient-to-b from-blue-500 via-green-600 to-yellow-400"></div>
+    </body>
+</html>
