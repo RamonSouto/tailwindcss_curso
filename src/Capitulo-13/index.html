@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Capitulo 13 - Interatividade</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Aparence -->
+        <div class="m-4">
+            <select class="appearance-none">
+                <option value="">Teste 1</option>
+                <option value="">Teste 2</option>
+            </select>
+        </div>
+        <div class="m-4">
+            <select class="">
+                <option value="">Teste 1</option>
+                <option value="">Teste 2</option>
+            </select>
+        </div>
+
+        <!-- Cursor do mouse -->
+        <div class="h-20 bg-cyan-100 cursor-pointer p-4">Cursor cursor-pointer</div>
+        <div class="h-20 bg-cyan-200 cursor-auto p-4">Cursor cursor-auto</div>
+        <div class="h-20 bg-cyan-300 cursor-default p-4">Cursor cursor-default</div>
+        <div class="h-20 bg-cyan-400 cursor-wait p-4">Cursor cursor-wait</div>
+        <div class="h-20 bg-cyan-500 cursor-text p-4">Cursor cursor-text</div>
+        <div class="h-20 bg-cyan-600 cursor-move p-4">Cursor cursor-move</div>
+        <div class="h-20 bg-cyan-700 cursor-help p-4">Cursor cursor-help</div>
+        <div class="h-20 bg-cyan-800 cursor-not-allowed p-4">Cursor cursor-not-allowed</div>
+        <div class="h-20 bg-cyan-900 cursor-context-menu p-4">Cursor cursor-context-menu</div>
+        <div class="h-20 bg-sky-100 cursor-progress p-4">Cursor cursor-progress</div>
+        <div class="h-20 bg-sky-200 cursor-cell p-4">Cursor cursor-cell</div>
+        <div class="h-20 bg-sky-300 cursor-crosshair p-4">Cursor cursor-crosshair</div>
+        <div class="h-20 bg-sky-400 cursor-vertical-text p-4">Cursor cursor-vertical-text</div>
+        <div class="h-20 bg-sky-500 cursor-alias p-4">Cursor cursor-alias</div>
+        <div class="h-20 bg-sky-600 cursor-copy p-4">Cursor cursor-copy</div>
+        <div class="h-20 bg-sky-700 cursor-no-drop p-4">Cursor cursor-no-drop</div>
+        <div class="h-20 bg-sky-800 cursor-grab p-4">Cursor cursor-grab</div>
+        <div class="h-20 bg-sky-900 cursor-grabbing p-4">Cursor cursor-grabbing</div>
+        <div class="h-20 bg-blue-100 cursor-all-scroll p-4">Cursor cursor-all-scroll</div>
+        <div class="h-20 bg-blue-200 cursor-col-resize p-4">Cursor cursor-col-resize</div>
+        <div class="h-20 bg-blue-300 cursor-row-resize p-4">Cursor cursor-row-resize</div>
+        <div class="h-20 bg-blue-400 cursor-n-resize p-4">Cursor cursor-n-resize</div>
+        <div class="h-20 bg-blue-500 cursor-e-resize p-4">Cursor cursor-e-resize</div>
+        <div class="h-20 bg-blue-600 cursor-s-resize p-4">Cursor cursor-s-resize</div>
+        <div class="h-20 bg-blue-700 cursor-w-resize p-4">Cursor cursor-w-resize</div>
+        <div class="h-20 bg-blue-800 cursor-ne-resize p-4">Cursor cursor-ne-resize</div>
+        <div class="h-20 bg-blue-900 cursor-nesw-resize p-4">Cursor cursor-nesw-resize</div>
+        <div class="h-20 bg-indigo-100 cursor-nwse-resize p-4">Cursor cursor-nwse-resize</div>
+        <div class="h-20 bg-indigo-100 cursor-zoom-in p-4">Cursor cursor-zoom-in</div>
+        <div class="h-20 bg-indigo-100 cursor-zoom-out p-4">Cursor cursor-zoom-out</div>
+        <p class="m-4 p-4">&nbsp;</p>
+
+        <!-- Outline-->
+        <div class="m-4 p-4 border-b-blue-500">
+            <input type="text" class="p-2 m-2 block outline-none" placeholder="Outline-none" />
+            <input type="text" class="p-2 m-2 block outline-dashed" placeholder="Outline-dashed" />
+            <input type="text" class="p-2 m-2 block outline-dotted" placeholder="Outline-dotted" />
+            <input type="text" class="p-2 m-2 block outline-double" placeholder="Outline-double" />
+            <input type="text" class="p-2 m-2 block outline-hidden" placeholder="Outline-hidden" />
+            <input type="text" class="p-2 m-2 block outline-0" placeholder="Outline-0" />
+            <input type="text" class="p-2 m-2 block outline-1" placeholder="Outline-1" />
+            <input type="text" class="p-2 m-2 block outline-2" placeholder="Outline-2" />
+            <input type="text" class="p-2 m-2 block outline-4" placeholder="Outline-4" />
+            <input type="text" class="p-2 m-2 block outline-8" placeholder="Outline-8" />
+            <input type="text" class="p-2 m-2 block outline-inherit" placeholder="Outline-inherit" />
+            <input type="text" class="p-2 m-2 block outline-current" placeholder="Outline-current" />
+            <input type="text" class="p-2 m-2 block outline-transparent" placeholder="Outline-transparent" />
+            <input type="text" class="p-2 m-2 block outline-black" placeholder="Outline-blcak" />
+            <input type="text" class="p-2 m-2 block outline-red-900" placeholder="Outline-red-900" />
+        </div>
+
+        <!-- Pointer Events -->
+        <div class="m-4 p-4">
+            <select class="pointer-events-none">
+                <option value="">Pointer-events-none - 1</option>
+                <option value="">Pointer-events-none - 2</option>
+                <option value="">Pointer-events-none - 3</option>
+            </select>
+            <select class="pointer-events-auto">
+                <option value="">Pointer-events-auto - 1</option>
+                <option value="">Pointer-events-auto - 2</option>
+                <option value="">Pointer-events-auto - 3</option>
+            </select>
+        </div>
+
+        <!-- Resize TextArea-->
+        <div class="bg-blue-400 m-4 p-4">
+            <textarea name="" id="" cols="30" rows="10" class="m-2 p-2 resize-none"></textarea>
+            <textarea name="" id="" cols="30" rows="10" class="m-2 p-2 resize-y"></textarea>
+            <textarea name="" id="" cols="30" rows="10" class="m-2 p-2 resize-x"></textarea>
+            <textarea name="" id="" cols="30" rows="10" class="m-2 p-2 resize"></textarea>
+        </div>
+
+        <!-- Remover seleção de site -->
+        <div class="m-4 p-4">
+            <p class="select-none">
+                Select-none - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure beatae soluta at
+                aperiam, facilis iusto. Numquam, quisquam. Ipsa soluta error sint nisi fugit recusandae consectetur
+                possimus harum earum suscipit?
+            </p>
+            <p class="select-text">
+                Select-text - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure beatae soluta at
+                aperiam, facilis iusto. Numquam, quisquam. Ipsa soluta error sint nisi fugit recusandae consectetur
+                possimus harum earum suscipit?
+            </p>
+            <p class="select-auto">
+                Select-auto - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure beatae soluta at
+                aperiam, facilis iusto. Numquam, quisquam. Ipsa soluta error sint nisi fugit recusandae consectetur
+                possimus harum earum suscipit?
+            </p>
+            <p class="select-all">
+                Select-all - Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure beatae soluta at
+                aperiam, facilis iusto. Numquam, quisquam. Ipsa soluta error sint nisi fugit recusandae consectetur
+                possimus harum earum suscipit?
+            </p>
+        </div>
+    </body>
+</html>
