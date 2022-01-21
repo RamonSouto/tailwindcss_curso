@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Capitulo 12 - Bordas</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Bordas -->
+        <div>
+            <button class="m-4 p-4 bg-rose-400 rounded-sm">Borda sm</button>
+            <button class="m-4 p-4 bg-rose-400 rounded">Borda padrão</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-none">Sem Borda</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-md">Borda md</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-lg">Borda lg</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-xl">Borda xl</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-2xl">Borda 2xl</button>
+            <button class="m-4 p-4 bg-rose-400 rounded-3xl">Borda 3xl</button>
+        </div>
+        <div>
+            <span class="bg-green-400 w-20 h-20 block m-4 rounded-full">circular</span>
+            <span class="bg-green-400 w-40 h-20 block m-4 rounded-full">Pilula</span>
+        </div>
+
+        <!-- Largura e Cor da Bordas -->
+        <div>
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800">Botão</span>
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 rounded-lg"
+                >Botão</span
+            >
+        </div>
+
+        <!-- Opacidade e Estilo da Bordas -->
+        <div>
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-solid"
+                >Solid</span
+            >
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-dashed"
+                >Dashed</span
+            >
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-dotted"
+                >Dotted</span
+            >
+            <span class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-double"
+                >Double</span
+            >
+            <span
+                class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-double border-opacity-25"
+                >Opacity 25</span
+            >
+            <span
+                class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-double border-opacity-50"
+                >Opacity 50</span
+            >
+            <span
+                class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-double border-opacity-75"
+                >Opacity 75</span
+            >
+            <span
+                class="bg-blue-600 w-20 h-10 block m-4 text-center text-white border-4 border-blue-800 border-double border-opacity-95"
+                >Opacity 95</span
+            >
+        </div>
+
+        <!-- Divisão -->
+        <div class="grid grid-cols-4 divide-x-4 divide-blue-900">
+            <div class="text-center">1</div>
+            <div class="text-center">2</div>
+            <div class="text-center">3</div>
+            <div class="text-center">4</div>
+        </div>
+        <p class="m-10"></p>
+        <div class="grid grid-cols-4 divide-x-4 divide-blue-900 divide-dotted">
+            <div class="text-center">1</div>
+            <div class="text-center">2</div>
+            <div class="text-center">3</div>
+            <div class="text-center">4</div>
+        </div>
+
+        <p class="m-10"></p>
+
+        <div class="divide-y-4 divide-blue-900">
+            <p class="p-2">1</p>
+            <p class="p-2">2</p>
+            <p class="p-2">3</p>
+            <p class="p-2">4</p>
+        </div>
+        <p class="m-10"></p>
+        <div class="divide-y-4 divide-blue-900 divide-dotted">
+            <p class="p-2">1</p>
+            <p class="p-2">2</p>
+            <p class="p-2">3</p>
+            <p class="p-2">4</p>
+        </div>
+
+        <!-- Box shadow -->
+        <div class="w-40 h-40 m-6 shadow-sm">shadow-sm</div>
+        <div class="w-40 h-40 m-6 shadow">shadow</div>
+        <div class="w-40 h-40 m-6 shadow-md">shadow-md</div>
+        <div class="w-40 h-40 m-6 shadow-lg">shadow-lg</div>
+        <div class="w-40 h-40 m-6 shadow-xl">shadow-xl</div>
+        <div class="w-40 h-40 m-6 shadow-2xl">shadow-2xl</div>
+    </body>
+</html>
