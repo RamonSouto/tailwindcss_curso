@@ -14,7 +14,7 @@ module.exports = {
                 'gold-100': '#FEBD69',
                 'gold-200': '#FAA63A',
                 'orange-650': '#EA7911',
-                yellow: '#F0C48'
+                'yellow-350': '#F0C14B'
             },
             spacing: {
                 7: '1.75rem',
